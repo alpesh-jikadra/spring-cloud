@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<HTML xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>From Greeting</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	</head>
+	<body th:style="'background-color:'+${color}">
+		<p th:text="'Hello, '+${name} + '|' "/>
+	</body>
+</HTML>
